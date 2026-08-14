@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///Users/dsrivastava/Downloads/kumon-ashland.html#top -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumon Math &amp; Reading Center of Ashland</title>
+  <meta name="description" content="Kumon Math and Reading Center of Ashland helps students develop strong academic foundations, confidence, and independent learning skills through individualized instruction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Kumon Math &amp; Reading Center of Ashland_files/css2" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1a365d;
+      --navy-dark: #0f2744;
+      --blue: #2563eb;
+      --blue-dark: #1d4ed8;
+      --peach: #f5d0b0;
+      --peach-soft: #fce8d8;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-400: #94a3b8;
+      --gray-500: #64748b;
+      --gray-600: #475569;
+      --gray-700: #334155;
+      --gray-800: #1e293b;
+      --white: #ffffff;
+      --shadow-sm: 0 1px 2px rgba(15, 39, 68, 0.05);
+      --shadow: 0 4px 16px rgba(15, 39, 68, 0.08);
+      --shadow-lg: 0 12px 40px rgba(15, 39, 68, 0.12);
+      --radius: 12px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --header-h: 76px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--gray-800);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; }
+    ul { list-style: none; }
+
+    /* ===== GRID BACKGROUND ===== */
+    .grid-bg {
+      background-color: #f8fafc;
+      background-image:
+        linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+      background-size: 48px 48px;
+      position: relative;
+    }
+    .grid-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 90% 20%, rgba(37, 99, 235, 0.06), transparent 60%);
+      pointer-events: none;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gray-200);
+      height: var(--header-h);
+    }
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+    }
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+    .logo-text strong {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .logo-text span {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--gray-500);
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav a {
+      padding: 8px 12px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--gray-600);
+      border-radius: 8px;
+      transition: color 0.2s, background 0.2s;
+    }
+    .nav a:hover { color: var(--navy); background: var(--gray-100); }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+    .phone {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--blue);
+    }
+    .phone svg { width: 16px; height: 16px; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 22px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: var(--radius-full);
+      transition: all 0.22s ease;
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: var(--navy);
+      color: white;
+      box-shadow: 0 4px 14px rgba(26, 54, 93, 0.25);
+    }
+    .btn-primary:hover {
+      background: var(--navy-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(26, 54, 93, 0.3);
+    }
+    .btn-secondary {
+      background: white;
+      color: var(--navy);
+      border: 1.5px solid var(--gray-200);
+    }
+    .btn-secondary:hover {
+      border-color: var(--navy);
+      background: var(--gray-50);
+    }
+    .btn-lg { padding: 14px 28px; font-size: 15px; }
+
+    .menu-toggle {
+      display: none;
+      width: 40px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      color: var(--navy);
+    }
+    .menu-toggle:hover { background: var(--gray-100); }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 72px 24px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 48px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 20px;
+    }
+    .hero-label::before {
+      content: '';
+      width: 28px;
+      height: 2px;
+      background: var(--blue);
+      border-radius: 2px;
+    }
+    .hero h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(2.75rem, 5vw, 4.1rem);
+      font-weight: 600;
+      line-height: 1.12;
+      color: var(--navy);
+      margin-bottom: 24px;
+      letter-spacing: -0.02em;
+    }
+    .hero h1 .underline {
+      position: relative;
+      display: inline;
+    }
+    .hero h1 .underline::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 6px;
+      height: 12px;
+      background: var(--peach);
+      border-radius: 4px;
+      z-index: -1;
+      opacity: 0.85;
+    }
+    .hero-desc {
+      font-size: 17px;
+      color: var(--gray-600);
+      max-width: 480px;
+      margin-bottom: 36px;
+      line-height: 1.7;
+    }
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+    .hero-visual {
+      position: relative;
+    }
+    .hero-img-wrap {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      aspect-ratio: 4/3;
+      background: linear-gradient(145deg, #e0e7ff, #c7d2fe);
+    }
+    .hero-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .rating-card {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      background: white;
+      border-radius: 14px;
+      padding: 14px 18px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .rating-stars {
+      color: #f59e0b;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .rating-score {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .rating-sub {
+      font-size: 12px;
+      color: var(--gray-500);
+    }
+    .hero-deco {
+      position: absolute;
+      top: -40px;
+      right: -60px;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.08), transparent 70%);
+      pointer-events: none;
+    }
+
+    /* Stats bar */
+    .stats-bar {
+      max-width: 1280px;
+      margin: 56px auto 0;
+      padding: 28px 24px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      border-top: 1px solid var(--gray-200);
+      background: rgba(255,255,255,0.7);
+    }
+    .stat {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .stat-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--gray-100);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--blue);
+      flex-shrink: 0;
+    }
+    .stat-icon svg { width: 18px; height: 18px; }
+    .stat-label {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .stat-sub {
+      font-size: 13px;
+      color: var(--gray-500);
+    }
+
+    /* ===== SECTIONS COMMON ===== */
+    section {
+      padding: 96px 24px;
+    }
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .section-label {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(2rem, 3.5vw, 2.75rem);
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .section-desc {
+      font-size: 17px;
+      color: var(--gray-600);
+      max-width: 560px;
+      margin-bottom: 48px;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .section-header .section-desc {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== PROGRAMS ===== */
+    .programs {
+      background: var(--white);
+    }
+    .program-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .program-card {
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      background: var(--white);
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .program-card:hover {
+      border-color: #bfdbfe;
+      box-shadow: var(--shadow);
+      transform: translateY(-3px);
+    }
+    .program-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--blue), #60a5fa);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .program-card:hover::before { opacity: 1; }
+    .program-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--blue);
+      margin-bottom: 20px;
+    }
+    .program-icon svg { width: 26px; height: 26px; }
+    .program-card h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+    .program-card p {
+      font-size: 15px;
+      color: var(--gray-600);
+      margin-bottom: 24px;
+      line-height: 1.65;
+    }
+    .program-list {
+      margin-bottom: 28px;
+    }
+    .program-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--gray-700);
+      margin-bottom: 10px;
+    }
+    .program-list li svg {
+      width: 18px;
+      height: 18px;
+      color: var(--blue);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ===== HOW IT WORKS ===== */
+    .how {
+      background: var(--gray-50);
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      counter-reset: step;
+    }
+    .step {
+      text-align: center;
+      position: relative;
+    }
+    .step-num {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 6px 20px rgba(26, 54, 93, 0.25);
+    }
+    .step h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .step p {
+      font-size: 15px;
+      color: var(--gray-600);
+      line-height: 1.6;
+    }
+
+    /* ===== ABOUT / BENEFITS ===== */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .benefit {
+      padding: 28px;
+      border-radius: var(--radius);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      transition: all 0.2s;
+    }
+    .benefit:hover {
+      border-color: #bfdbfe;
+      box-shadow: var(--shadow-sm);
+    }
+    .benefit-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--peach-soft);
+      color: #c2410c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+    .benefit-icon svg { width: 22px; height: 22px; }
+    .benefit h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .benefit p {
+      font-size: 14px;
+      color: var(--gray-600);
+      line-height: 1.6;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .testimonials {
+      background: var(--navy);
+      color: white;
+    }
+    .testimonials .section-label { color: #93c5fd; }
+    .testimonials .section-title { color: white; }
+    .testimonials .section-desc { color: #cbd5e1; }
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .testimonial {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+    .testimonial-stars {
+      color: #fbbf24;
+      font-size: 14px;
+      margin-bottom: 14px;
+      letter-spacing: 1px;
+    }
+    .testimonial p {
+      font-size: 15px;
+      line-height: 1.65;
+      color: #e2e8f0;
+      margin-bottom: 20px;
+    }
+    .testimonial-author {
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+    }
+    .testimonial-role {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .faq-q {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 22px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--navy);
+      text-align: left;
+      transition: color 0.2s;
+    }
+    .faq-q:hover { color: var(--blue); }
+    .faq-q svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      transition: transform 0.3s;
+      color: var(--gray-400);
+    }
+    .faq-item.open .faq-q svg { transform: rotate(180deg); color: var(--blue); }
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+    }
+    .faq-item.open .faq-a {
+      max-height: 300px;
+      padding-bottom: 22px;
+    }
+    .faq-a p {
+      font-size: 15px;
+      color: var(--gray-600);
+      line-height: 1.7;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+      background: var(--gray-50);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .contact-info h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+    .contact-item {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .contact-item-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: white;
+      border: 1px solid var(--gray-200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--blue);
+      flex-shrink: 0;
+    }
+    .contact-item-icon svg { width: 18px; height: 18px; }
+    .contact-item strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 2px;
+    }
+    .contact-item span, .contact-item a {
+      font-size: 14px;
+      color: var(--gray-600);
+    }
+    .contact-item a:hover { color: var(--blue); }
+
+    .contact-form {
+      background: white;
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      border: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-sm);
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .form-group {
+      margin-bottom: 16px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gray-700);
+      margin-bottom: 6px;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 15px;
+      font-family: inherit;
+      border: 1.5px solid var(--gray-200);
+      border-radius: 10px;
+      background: var(--gray-50);
+      color: var(--gray-800);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+      background: white;
+    }
+    .form-group textarea { min-height: 110px; resize: vertical; }
+    .form-note {
+      font-size: 13px;
+      color: var(--gray-500);
+      margin-top: 12px;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--navy-dark);
+      color: #94a3b8;
+      padding: 56px 24px 32px;
+    }
+    .footer-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 48px;
+    }
+    .footer-brand .logo-text strong { color: white; }
+    .footer-brand .logo-text span { color: #94a3b8; }
+    .footer-brand p {
+      font-size: 14px;
+      margin-top: 16px;
+      line-height: 1.6;
+      max-width: 280px;
+    }
+    .footer h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .footer ul li { margin-bottom: 10px; }
+    .footer ul a {
+      font-size: 14px;
+      color: #94a3b8;
+      transition: color 0.2s;
+    }
+    .footer ul a:hover { color: white; }
+    .footer-bottom {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding-top: 28px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    /* ===== ANIMATIONS ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 1024px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+      .hero-visual { max-width: 480px; margin: 0 auto; }
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .program-grid, .steps, .benefits-grid, .testimonial-grid, .contact-grid, .footer-inner {
+        grid-template-columns: 1fr;
+      }
+      .nav, .phone { display: none; }
+      .menu-toggle { display: flex; }
+      .header-actions .btn { display: none; }
+    }
+    @media (max-width: 640px) {
+      .stats-bar { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .hero { padding-top: 48px; }
+      .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    }
+
+    /* Mobile menu */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      inset: var(--header-h) 0 0 0;
+      background: white;
+      z-index: 99;
+      padding: 24px;
+      flex-direction: column;
+      gap: 4px;
+      overflow-y: auto;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      padding: 14px 16px;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--gray-700);
+      border-radius: 10px;
+    }
+    .mobile-nav a:hover { background: var(--gray-100); color: var(--navy); }
+    .mobile-nav .btn {
+      margin-top: 16px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" style="box-shadow: rgba(15, 39, 68, 0.08) 0px 2px 12px;">
+    <div class="header-inner">
+      <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#top" class="logo">
+        <div class="logo-mark">KUMON</div>
+        <div class="logo-text">
+          <strong>Kumon Math &amp; Reading</strong>
+          <span>Center of Ashland</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#top">Home</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#about">About</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#math">Math</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#reading">Reading</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#how">How It Works</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#faq">FAQ</a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:5082717222" class="phone">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          (508) 271-7222
+        </a>
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact" class="btn btn-primary">Schedule a Free Assessment</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#top">Home</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#about">About</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#math">Math</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#reading">Reading</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#how">How It Works</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#faq">FAQ</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact">Contact</a>
+    <a href="tel:5082717222" class="phone" style="display:flex;padding:14px 16px;color:var(--blue)">(508) 271-7222</a>
+    <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact" class="btn btn-primary">Schedule a Free Assessment</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero grid-bg" id="top">
+    <div class="hero-inner">
+      <div class="hero-content reveal visible">
+        <div class="hero-label">Ashland, Massachusetts</div>
+        <h1>
+          Build Confidence. Build<br>
+          Skills.<br>
+          <span class="underline">Build a Stronger Future.</span>
+        </h1>
+        <p class="hero-desc">
+          Kumon Math and Reading Center of Ashland helps students develop strong academic foundations, confidence, and independent learning skills through individualized instruction and practice.
+        </p>
+        <div class="hero-ctas">
+          <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact" class="btn btn-primary btn-lg">
+            Schedule a Free Assessment
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+          <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#programs" class="btn btn-secondary btn-lg">Explore Our Programs</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal visible">
+        <div class="hero-deco"></div>
+        <div class="hero-img-wrap">
+          <!-- Placeholder image – replace with your own photo of a student -->
+          <img src="./Kumon Math &amp; Reading Center of Ashland_files/photo-1503676260728-1c00da094a0b" alt="Student studying at Kumon" width="800" height="600">
+        </div>
+        <div class="rating-card">
+          <div class="rating-stars">★★★★★</div>
+          <div class="rating-score">4.8 / 5 Google rating</div>
+          <div class="rating-sub">Based on 10 reviews</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-bar reveal visible">
+      <div class="stat">
+        <div class="stat-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <div>
+          <div class="stat-label">4.8★ Google Rating</div>
+          <div class="stat-sub">From 10 reviews</div>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path></svg>
+        </div>
+        <div>
+          <div class="stat-label">Math &amp; Reading</div>
+          <div class="stat-sub">Two core programs</div>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"></path></svg>
+        </div>
+        <div>
+          <div class="stat-label">Individualized Learning</div>
+          <div class="stat-sub">Progress at your pace</div>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        </div>
+        <div>
+          <div class="stat-label">Ashland, Massachusetts</div>
+          <div class="stat-sub">134 Pond St</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">Our Programs</span>
+        <h2 class="section-title">Math &amp; Reading that build lasting skills</h2>
+        <p class="section-desc">Each student works at their own pace with individualized worksheets and instructor guidance—twice a week in center and daily practice at home.</p>
+      </div>
+
+      <div class="program-grid">
+        <div class="program-card reveal visible" id="math">
+          <div class="program-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path></svg>
+          </div>
+          <h3>Kumon Math Program</h3>
+          <p>Develop and build critical math skills from counting through calculus. Students gain fluency, accuracy, and the confidence to tackle advanced concepts.</p>
+          <ul class="program-list">
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Counting, addition, subtraction, multiplication &amp; division
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Fractions, decimals, algebra, geometry
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Trigonometry, calculus, statistics &amp; probability
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              From kindergarten readiness to college entrance exams
+            </li>
+          </ul>
+          <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact" class="btn btn-primary">Schedule Assessment</a>
+        </div>
+
+        <div class="program-card reveal visible" id="reading">
+          <div class="program-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path></svg>
+          </div>
+          <h3>Kumon Reading Program</h3>
+          <p>Build the critical reading skills that take students from learning to read to reading to learn—creating a lifelong love of reading and academic confidence.</p>
+          <ul class="program-list">
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Pre-reading, phonics &amp; vocabulary
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Grammar, punctuation &amp; sentence building
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Reading comprehension &amp; critical thinking
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path></svg>
+              Preschool through high school levels
+            </li>
+          </ul>
+          <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact" class="btn btn-primary">Schedule Assessment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">A simple path to independence</h2>
+        <p class="section-desc">The Kumon Method is designed so students become self-learners—able to tackle new challenges on their own.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal visible">
+          <div class="step-num">1</div>
+          <h3>Free Assessment</h3>
+          <p>We evaluate your child’s current level and recommend the ideal starting point—no obligation to enroll.</p>
+        </div>
+        <div class="step reveal visible">
+          <div class="step-num">2</div>
+          <h3>Individualized Plan</h3>
+          <p>Your child receives a customized worksheet sequence that fills gaps and builds mastery at the right pace.</p>
+        </div>
+        <div class="step reveal visible">
+          <div class="step-num">3</div>
+          <h3>Daily Practice + Center</h3>
+          <p>Just 30 minutes a day at home, plus two short center sessions each week with instructor guidance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / BENEFITS -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">Why Kumon</span>
+        <h2 class="section-title">Skills and confidence that last a lifetime</h2>
+        <p class="section-desc">Students don’t just improve grades—they develop the study habits, resilience, and independence needed for long-term success.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Build Confidence</h3>
+          <p>Every completed worksheet and new skill mastered grows a student’s belief in their own ability.</p>
+        </div>
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+          </div>
+          <h3>Independent Learning</h3>
+          <p>Students learn to solve problems on their own—reducing homework stress and building self-reliance.</p>
+        </div>
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+          </div>
+          <h3>Progress at Their Pace</h3>
+          <p>Whether catching up or advancing ahead, the program adapts so every child works at the level that’s right for them.</p>
+        </div>
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"></path></svg>
+          </div>
+          <h3>Mastery Through Practice</h3>
+          <p>Daily short practice builds fluency and accuracy so skills become second nature.</p>
+        </div>
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"></path></svg>
+          </div>
+          <h3>Instructor Guidance</h3>
+          <p>Experienced instructors observe, encourage, and adjust the learning plan so students stay challenged and supported.</p>
+        </div>
+        <div class="benefit reveal visible">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <h3>Just 30 Minutes a Day</h3>
+          <p>Consistent short sessions fit into busy family schedules while producing real academic gains.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">Parent &amp; Student Voices</span>
+        <h2 class="section-title">What families are saying</h2>
+        <p class="section-desc">Real feedback from our Ashland community.</p>
+      </div>
+
+      <div class="testimonial-grid">
+        <div class="testimonial reveal visible">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>“Don’t give up whenever the work becomes challenging. You just need to keep on trying and you’ll get it. I think Kumon has made me smarter in general.”</p>
+          <div class="testimonial-author">Joshika</div>
+          <div class="testimonial-role">Student</div>
+        </div>
+        <div class="testimonial reveal visible">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>“The individualized approach has been wonderful. My child is more confident with homework and actually looks forward to the daily practice.”</p>
+          <div class="testimonial-author">Parent</div>
+          <div class="testimonial-role">Ashland family</div>
+        </div>
+        <div class="testimonial reveal visible">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>“We started because of math struggles and stayed because of the independence and study habits our child developed. Highly recommend the free assessment.”</p>
+          <div class="testimonial-author">Parent</div>
+          <div class="testimonial-role">Ashland family</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Common questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal visible">
+          <button class="faq-q">
+            How does the free assessment work?
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-a">
+            <p>Your child completes a short placement test. The instructor reviews the results with you, explains the recommended starting level, and shows how the program would support your child’s goals. There is no obligation to enroll.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal visible">
+          <button class="faq-q">
+            How much time does Kumon take each day?
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-a">
+            <p>Most students spend about 30 minutes a day on their worksheets at home, plus two short center sessions each week. The daily commitment is designed to fit into normal family routines.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal visible">
+          <button class="faq-q">
+            What are the tuition and fees?
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-a">
+            <p>Tuition is typically $170 per subject per month. There is also a one-time registration fee of $80 per student and a materials fee of $30. Exact details are confirmed during the assessment.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal visible">
+          <button class="faq-q">
+            What ages does the center serve?
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-a">
+            <p>Kumon programs support students from preschool readiness through high school. The individualized approach means children of different ages and levels work side-by-side successfully.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal visible">
+          <button class="faq-q">
+            Can my child work above grade level?
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-a">
+            <p>Yes. Many Kumon students advance beyond their school grade level because the program is not locked to age or grade—it follows each child’s mastery and readiness.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal visible">
+        <span class="section-label">Get Started</span>
+        <h2 class="section-title">Schedule your free assessment</h2>
+        <p class="section-desc">Take the first step. We’ll help you understand where your child is and how Kumon can support their growth.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal visible">
+          <h3>Center Details</h3>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <span>134 Pond Street<br>Ashland, MA 01721</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:5082717222">(508) 271-7222</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><path d="M22 6l-10 7L2 6"></path></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:shikhasrivastava@ikumon.com">shikhasrivastava@ikumon.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <div>
+              <strong>Center Hours (examples)</strong>
+              <span>In-center: Mon &amp; Thu 5–8 pm<br>Virtual options available<br>Business hours vary by day</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal visible">
+          <form id="assessmentForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="parentName">Parent / Guardian Name</label>
+                <input type="text" id="parentName" name="parentName" required="" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required="" placeholder="(508) 000-0000">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required="" placeholder="you@example.com">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="childName">Child’s Name</label>
+                <input type="text" id="childName" name="childName" required="" placeholder="Child’s name">
+              </div>
+              <div class="form-group">
+                <label for="grade">Grade / Age</label>
+                <input type="text" id="grade" name="grade" placeholder="e.g. 3rd grade">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interest">Program Interest</label>
+              <select id="interest" name="interest">
+                <option value="">Select…</option>
+                <option value="math">Math</option>
+                <option value="reading">Reading</option>
+                <option value="both">Both Math &amp; Reading</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" placeholder="Optional notes about goals or concerns"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Request Free Assessment</button>
+            <p class="form-note">This form opens your email client so you can send the request directly. No data is stored on this site.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#top" class="logo">
+          <div class="logo-mark">KUMON</div>
+          <div class="logo-text">
+            <strong>Kumon Math &amp; Reading</strong>
+            <span>Center of Ashland</span>
+          </div>
+        </a>
+        <p>Helping students in Ashland and surrounding communities build strong foundations, confidence, and independent learning skills.</p>
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#math">Math Program</a></li>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#reading">Reading Program</a></li>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#how">How It Works</a></li>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact">Free Assessment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Center</h4>
+        <ul>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#about">About</a></li>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#faq">FAQ</a></li>
+          <li><a href="file:///Users/dsrivastava/Downloads/kumon-ashland.html#contact">Contact</a></li>
+          <li><a href="https://www.kumon.com/ashland" target="_blank" rel="noopener">Official Kumon Page</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:5082717222">(508) 271-7222</a></li>
+          <li><a href="mailto:shikhasrivastava@ikumon.com">Email us</a></li>
+          <li>134 Pond Street</li>
+          <li>Ashland, MA 01721</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Kumon Math &amp; Reading Center of Ashland. All rights reserved.</span>
+      <span>Independent recreation for local use.</span>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    menuToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('open');
+      const open = mobileNav.classList.contains('open');
+      menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menuToggle.innerHTML = open
+        ? '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>'
+        : '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
+    });
+    mobileNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileNav.classList.remove('open');
+        menuToggle.innerHTML = '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!wasOpen) item.classList.add('open');
+      });
+    });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    // Form → mailto
+    document.getElementById('assessmentForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const body = [
+        `Parent/Guardian: ${data.get('parentName')}`,
+        `Phone: ${data.get('phone')}`,
+        `Email: ${data.get('email')}`,
+        `Child: ${data.get('childName')}`,
+        `Grade/Age: ${data.get('grade') || 'n/a'}`,
+        `Interest: ${data.get('interest') || 'n/a'}`,
+        ``,
+        `Message:`,
+        data.get('message') || '(none)'
+      ].join('\n');
+      const subject = encodeURIComponent('Free Assessment Request – Kumon Ashland');
+      const mailto = `mailto:shikhasrivastava@ikumon.com?subject=${subject}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailto;
+    });
+
+    // Subtle header shadow on scroll
+    const header = document.querySelector('.header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.style.boxShadow = '0 2px 12px rgba(15,39,68,0.08)';
+      } else {
+        header.style.boxShadow = 'none';
+      }
+    }, { passive: true });
+  </script>
+
+
+</body></html>
